@@ -16,3 +16,8 @@ test('get started link', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
+
+test('open docs page', async ({ page }) => {
+  await page.goto('https://playwright.dev/docs/intro');
+  await expect(page).toHaveURL(/docs/);
+});
