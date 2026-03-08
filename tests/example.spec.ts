@@ -18,6 +18,6 @@ test('get started link', async ({ page }) => {
 });
 
 test('open docs page', async ({ page }) => {
-  await page.goto('https://playwright.dev/invalid-page');
+  await page.goto('https://playwright.dev/invalid');
   await expect(page).toHaveURL(/docs/);
 });
