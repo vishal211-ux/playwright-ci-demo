@@ -1,0 +1,23 @@
+{
+  "name": "playwright-ci-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishal211-ux/playwright-ci-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vishal211-ux/playwright-ci-demo/issues"
+  },
+  "homepage": "https://github.com/vishal211-ux/playwright-ci-demo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.5"
+  }
+}
